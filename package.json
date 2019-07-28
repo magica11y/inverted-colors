@@ -1,7 +1,7 @@
 {
   "name": "@magica11y/inverted-colors",
   "homepage": "https://magica11y.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detects the user’s preferences for inverted colors using the 'inverted-colors' CSS3 level 5 media query.",
   "module": "lib/index.js",
   "browser": "dist/magica11y.invertedColors.js",
