@@ -3,15 +3,15 @@
 > Detects the user’s preferences for inverted colors using the `inverted-colors` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/inverted-colors.svg?style=for-the-badge)](https://travis-ci.com/magica11y/inverted-colors)
-[![npm](https://img.shields.io/npm/v/@magica11y/inverted-colors.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/inverted-colors)
+[![NPM](https://img.shields.io/npm/v/@magica11y/inverted-colors.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/inverted-colors)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/inverted-colors.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/inverted-colors)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/inverted-colors.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/inverted-colors)
-[![Coveralls](https://img.shields.io/coveralls/magica11y/inverted-colors.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/r/magica11y/inverted-colors)
-[![David](https://img.shields.io/david/magica11y/inverted-colors.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/inverted-colors)
-[![David](https://img.shields.io/david/dev/magica11y/inverted-colors.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/inverted-colors?type=dev)
-[![node](https://img.shields.io/node/v/@magica11y/inverted-colors.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/inverted-colors)
+[![Coveralls](https://img.shields.io/coveralls/github/magica11y/inverted-colors.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/github/magica11y/inverted-colors)
+[![David DM](https://img.shields.io/david/magica11y/inverted-colors.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/inverted-colors)
+[![David DM](https://img.shields.io/david/dev/magica11y/inverted-colors.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/inverted-colors?type=dev)
+[![NodeJS](https://img.shields.io/node/v/@magica11y/inverted-colors.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/inverted-colors)
 [![License](https://img.shields.io/github/license/magica11y/inverted-colors.svg?style=for-the-badge "MIT license")](LICENSE.md)
-![Greenkeeper](https://badges.greenkeeper.io/magica11y/inverted-colors.svg?style=flat-square "Greenkeeper")
+[![Snyk](https://img.shields.io/snyk/vulnerabilities/github/magica11y/inverted-colors?style=for-the-badge "Snyk vulnerabilities status")](https://snyk.io/test/github/magica11y/inverted-colors?targetFile=package.json)
 
 [![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")](https://magica11y.github.io)
 
@@ -84,7 +84,7 @@ const areColorsInverted = (invertedColorsPreference === invertedColors.colorPref
 … or as an ES module…
 
 ```js
-import invertedColors, { colorPreferences } from 'magica11y/invertedColors';
+import invertedColors, { colorPreferences } from '@magica11y/invertedColors';
 
 const invertedColorsPreference = invertedColors();
 const areColorsInverted = (invertedColorsPreference === colorPreferences.INVERTED);
@@ -129,6 +129,6 @@ type (i.e. `ColorPreference`). So using the `?` prefix to indicate nullable type
 
 See [LICENSE.md](LICENSE.md) for more details.
 
-Handcrafted with :heart: by [Rishabh Rao](https://github.com/rishabhsrao).
+Handcrafted with :heart: by [Rishabh](https://rishabh.ink).
 
-[![Twitter](https://img.shields.io/twitter/follow/rishabhsrao.svg?style=social)](https://twitter.com/rishabhsrao)
+[![Twitter](https://img.shields.io/twitter/follow/rishabh_ink.svg?style=social)](https://twitter.com/rishabh_ink)
