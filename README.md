@@ -18,11 +18,10 @@
 
 # :sparkles: Introduction
 
-Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [level 5](https://drafts.csswg.org/mediaqueries-5)
+Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [level 5](https://www.w3.org/TR/mediaqueries-5/)
 [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) specfication…
 
-> The [`'inverted-colors'`](https://drafts.csswg.org/mediaqueries-5/#inverted-colors) media feature
-> indicates whether the content is displayed normally, or whether colors have been inverted.
+> The [`'inverted-colors'`](https://www.w3.org/TR/mediaqueries-5/#inverted) media feature indicates whether the content is displayed normally, or whether colors have been inverted.
 
 :new_moon: **`invertedColors()`** is part of :crystal_ball: [**Magica11y**](https://magica11y.github.io),
 which provides a suite of functions to detect “user-preference” and “environment” media features.
@@ -37,8 +36,8 @@ which provides a suite of functions to detect “user-preference” and “envir
 In addition to `invertedColors()`, [Magica11y](https://magica11y.github.io) also provides…
 
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
-  * :candle: [`lightLevel()`](https://github.com/magica11y/light-level)
   * :art: [`forcedColors()`](https://github.com/magica11y/forced-colors)
+  * ~:candle: [`lightLevel()`](https://github.com/magica11y/light-level)~
   * :last_quarter_moon: [`prefersColorScheme()`](https://github.com/magica11y/prefers-color-scheme)
   * :high_brightness: [`prefersContrast()`](https://github.com/magica11y/prefers-contrast)
   * :roller_coaster: [`prefersReducedMotion()`](https://github.com/magica11y/prefers-reduced-motion)
@@ -92,9 +91,9 @@ const areColorsInverted = (invertedColorsPreference === colorPreferences.INVERTE
 
 The `colorPreferences` object contains all the possible values supported by the `'inverted-colors'` media query…
 
-* `colorPreferences.NONE` (spec: [`'none'`](https://drafts.csswg.org/mediaqueries-5/#valdef-media-inverted-colors-none))
+* `colorPreferences.NONE` (spec: [`'none'`](https://www.w3.org/TR/mediaqueries-5/#valdef-media-inverted-colors-none))
   > Colors are displayed normally.
-* `colorPreferences.INVERTED` (spec: [`'inverted'`](https://drafts.csswg.org/mediaqueries-5/#valdef-media-inverted-colors-inverted))
+* `colorPreferences.INVERTED` (spec: [`'inverted'`](https://www.w3.org/TR/mediaqueries-5/#valdef-media-inverted-colors-inverted))
   > All pixels within the displayed area have been inverted.
 * `null`
   > The user’s preference could not be determined.
