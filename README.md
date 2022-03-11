@@ -2,7 +2,7 @@
 ========================
 > Detects the user’s preferences for inverted colors using the `inverted-colors` CSS3 level 5 media query.
 
-[![Travis](https://img.shields.io/travis/com/magica11y/inverted-colors.svg?style=for-the-badge)](https://travis-ci.com/magica11y/inverted-colors)
+[![Travis](https://img.shields.io/travis/com/magica11y/inverted-colors.svg?style=for-the-badge)](https://app.travis-ci.com/github/magica11y/inverted-colors)
 [![NPM](https://img.shields.io/npm/v/@magica11y/inverted-colors.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/inverted-colors)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/inverted-colors.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/inverted-colors)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/inverted-colors.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/inverted-colors)
@@ -35,7 +35,7 @@ which provides a suite of functions to detect “user-preference” and “envir
 
 In addition to `invertedColors()`, [Magica11y](https://magica11y.github.io) also provides…
 
-  * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
+  * :tv: [`environmentBlending()`](https://app.travis-ci.com/github/magica11y/prefers-contrast)
   * :art: [`forcedColors()`](https://github.com/magica11y/forced-colors)
   * ~:candle: [`lightLevel()`](https://github.com/magica11y/light-level)~
   * :last_quarter_moon: [`prefersColorScheme()`](https://github.com/magica11y/prefers-color-scheme)
